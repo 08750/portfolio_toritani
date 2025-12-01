@@ -1,0 +1,84 @@
+.wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  margin: 0 auto 3rem;
+}
+
+.BlackFishImg {
+  width: 30px;
+  height: 30px;
+}
+
+/* セクション全体 */
+.section {
+  background-color: #fffef4;
+  padding: 4rem 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.workBox {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.text {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.textbox {
+  max-width: 100%;
+  margin: 0 auto 5rem;
+  background: #fdfcec;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.btnWrap {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  /* background-color: #fff9b0;
+    color: #5a4634; */
+  background-color: #ffe1d0;
+  color: #5a4634;
+  padding: 0.8rem 2.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.btn:hover {
+  /* background-color: #fff07a; */
+  background-color: #ffd0b8;
+
+  transform: translateY(-2px);
+}

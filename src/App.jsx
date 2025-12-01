@@ -1,41 +1,37 @@
+// import "./App.css";
+
+// function App() {
+//   return (
+//     <>
+//       <h1>あ</h1>
+//     </>
+//   );
+// }
+
+// export default App;
+
 import "./App.css";
-import Firstview from "./components/Firstview";
-import navList from "./components/navigationList";
-import Header from "./components/Header";
-import ListItem from "./components/Listitem";
-import Logo from "./components/Logo";
-import MainArea from "./components/MainArea";
-import Navigation from "./components/Navigation";
-import Section from "./components/Section";
-import Section02 from "./components/Section02";
+
+import Header from "./components/_header/Header";
+import Skills from "./components/_skills/Skills";
+import Firstview from "./components/_firstview_temp/Firstview";
+import Works from "./components/_works/Works";
+import Contact from "./components/_contact/Contact";
+import Footer from "./components/_footer/Footer";
+import About from "./components/_about/About";
 
 function App() {
   return (
     <>
-      <Header>
-        <Logo />
-        <Navigation src={navList} />
-      </Header>
-
-      <MainArea>
-        <Firstview />
-        <Section />
-        <Section02 />
-      </MainArea>
-      <h1>簡単なwebサイト制作</h1>
+      <Header />
+      <Firstview />
+      <About />
+      <Skills />
+      <Works />
+      <Contact />
+      <Footer />
     </>
   );
 }
 
 export default App;
-{
-  /* <ListItem listName="メニュー１" listClass="red" />
-          <ListItem
-            listName="メニュー2"
-            listClass="green"
-            style={{
-              color: "#f8c579",
-            }}
-          />
-          <ListItem listName="メニュー3" listClass="blue" /> */
-}

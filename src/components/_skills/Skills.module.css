@@ -1,0 +1,83 @@
+/* Skills.module.css */
+
+.wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.WhiteFish {
+  width: 30px;
+  height: 30px;
+}
+
+.section {
+  background-color: #fff9b0;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.textBox {
+  max-width: 700px;
+  margin: 0 auto 5rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* カード全体のグリッド */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+/* カード */
+.card {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column; /* 見出しと本文を縦に並べる */
+  justify-content: flex-start;
+  background-color: white;
+  padding: 1.5rem 1rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #5a4634;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #5a4634;
+  margin: 0.5rem 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* 既存の skillText クラスも残す場合 */
+.skillText {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #5a4634;
+  margin: 0.5rem 0;
+}

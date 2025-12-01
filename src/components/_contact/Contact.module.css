@@ -1,0 +1,60 @@
+.WhiteFish {
+  width: 30px;
+  height: 30px;
+}
+
+.wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  background-color: #fffef4;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.title {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.input {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  background-color: #ffd77a;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.name {
+  text-align: left;
+}
+
+.namewrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

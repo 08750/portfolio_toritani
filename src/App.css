@@ -1,11 +1,5 @@
-.red {
-  color: rgb(183, 232, 255);
-}
-
-.green {
-  color: #f8c579;
-}
-
-.blue {
-  color: rgb(255, 182, 226);
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  background-color: #fafafa;
 }
