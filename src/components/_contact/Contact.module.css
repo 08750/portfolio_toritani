@@ -58,3 +58,39 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+@media (max-width: 430px) {
+  .wrap {
+    align-items: center;
+  }
+
+  .WhiteFish {
+    width: 22px;
+    height: 22px;
+  }
+
+  .title {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section {
+    padding: 2.5rem 1rem;
+  }
+
+  .form {
+    gap: 2rem;
+  }
+
+  .input,
+  .textarea {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .button {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    border-radius: 25px;
+  }
+}

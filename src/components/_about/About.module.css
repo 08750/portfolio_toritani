@@ -40,8 +40,6 @@
 }
 
 .btn {
-  /* background-color: #fff9b0;
-  color: #5a4634; */
   background-color: #ffe1d0;
   color: #5a4634;
   padding: 0.8rem 2.2rem;
@@ -54,7 +52,6 @@
 }
 
 .btn:hover {
-  /* background-color: #fff07a; */
   background-color: #ffd0b8;
 
   transform: translateY(-2px);
